@@ -1,0 +1,434 @@
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 22:15:36).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00026", "marketUnit": "baseCoin"}.
+Order quantity exceeded lower limit. (ErrCode: 170136) (ErrTime: 00:31:53).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0.000119", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7058679685:AAHOHDyllbXv5tf-cyiZHcmzXI06B1_5U_w/sendMessage?chat_id=6378611230&text=Last+Order+%3D+Sell+%D0%BF%D0%BE+63851.65+---%3E%0A%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B6%D1%83+%D0%B2+%D0%91%D0%BB%D0%BE%D0%BA3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f349df1e860>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+Insufficient balance. (ErrCode: 170131) (ErrTime: 15:13:44).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00026", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'marketPrice' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 05:06:06).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00026", "marketUnit": "baseCoin"}.
+query balance error (ErrCode: 131216) (ErrTime: 12:00:46).
+Request → GET https://api.bybit.com/v5/asset/transfer/query-account-coin-balance: accountType=UNIFIED&coin=USDC.
+query balance error (ErrCode: 131216) (ErrTime: 12:26:50).
+Request → GET https://api.bybit.com/v5/asset/transfer/query-account-coin-balance: accountType=UNIFIED&coin=BTC.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 07:07:41).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.062798", "marketUnit": "quoteCoin"}.
+name 'btc_amnt' is not defined
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:07:05).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00026", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 12:56:33).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00026", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 05:21:17).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00026", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 17:41:12).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:08:34).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:32:12).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:40:03).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:48:06).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:53:00).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:35:22).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0023", "marketUnit": "quoteCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 07:13:31).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.059609", "marketUnit": "quoteCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 09:56:18).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 14:20:01).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00025", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 16:42:42).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00025", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 17:16:17).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00025", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 18:05:43).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00025", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 12:23:42).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.00025", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 12:23:59).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.002756", "marketUnit": "quoteCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 06:50:51).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.051685", "marketUnit": "quoteCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:17:35).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 14:12:36).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 17:41:54).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 18:58:38).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:56:04).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 13:13:23).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 16:13:11).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 15:32:31).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:28:27).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:28:29).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.06437", "marketUnit": "quoteCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 20:28:48).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 20:57:51).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:55:24).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+name 'btc_amnt' is not defined
+name 'btc_amnt' is not defined
+name 'btc_amnt' is not defined
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 16:00:51).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 17:43:40).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 18:36:16).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 08:12:35).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:31:19).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 14:53:35).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 15:10:12).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Order quantity exceeded lower limit. (ErrCode: 170136) (ErrTime: 16:16:51).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0.000115", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:44:52).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:45:03).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.065011", "marketUnit": "quoteCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 14:56:19).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:39:18).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+local variable 'metka' referenced before assignment
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 04:29:05).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 06:30:04).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.023026", "marketUnit": "quoteCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 12:16:37).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 15:30:49).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 09:46:03).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7058679685:AAHOHDyllbXv5tf-cyiZHcmzXI06B1_5U_w/getUpdates?offset=118052491&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f927440c1c0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:05:13).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 06:31:38).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Limit", "side": "Sell", "orderFilter": "StopOrder", "triggerPrice": "69532.54", "price": "69527.54", "qty": "0", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 23:00:22).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:43:09).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 16:06:24).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 16:33:51).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.014729", "marketUnit": "quoteCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 17:40:40).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 18:39:07).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 21:06:17).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.014607", "marketUnit": "quoteCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 12:30:41).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:36:59).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:37:18).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.068272", "marketUnit": "quoteCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:28:32).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Permission denied, please check your API key permissions. (ErrCode: 10005) (ErrTime: 06:29:04).
+Request → GET https://api.bybit.com/v5/asset/transfer/query-account-coin-balance: accountType=UNIFIED&coin=USDC.
+Permission denied, please check your API key permissions. (ErrCode: 10005) (ErrTime: 06:32:43).
+Request → GET https://api.bybit.com/v5/asset/transfer/query-account-coin-balance: accountType=UNIFIED&coin=USDC.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+HTTPSConnectionPool(host='api.bybit.com', port=443): Read timed out. (read timeout=10)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 07:39:36).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 07:40:54).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 08:01:55).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 09:02:09).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 09:05:20).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 09:37:07).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 10:38:04).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.009737", "marketUnit": "quoteCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:39:30).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 10:40:06).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.053135", "marketUnit": "quoteCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:54:10).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:55:40).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:20:55).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 15:03:00).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0.0004", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:51:47).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 19:52:33).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:27:36).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:28:24).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:32:04).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:37:02).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:40:05).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:46:58).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:14:59).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 09:26:16).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 09:37:14).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 09:41:06).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 09:55:57).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 10:06:15).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:08:44).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 10:09:16).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 10:47:35).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:22:06).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:23:16).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:23:55).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:29:10).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:29:56).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:46:16).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:47:00).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:47:40).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:48:46).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:49:33).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:28:32).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:35:54).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 04:42:54).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 06:31:22).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 06:33:55).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 08:44:16).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:43:52).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:44:43).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:45:30).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:46:19).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 11:59:45).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 12:09:00).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 12:21:23).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 12:21:56).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+name 'btc_amnt' is not defined
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 15:24:00).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 15:24:38).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 15:36:55).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 16:27:53).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=20)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+name 'btc_amnt' is not defined
+Insufficient balance. (ErrCode: 170131) (ErrTime: 02:40:15).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 02:41:06).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:46:13).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:47:09).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:47:59).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:48:51).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:49:36).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:50:22).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:51:09).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 03:51:47).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:53:35).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:54:24).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 03:55:12).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 08:04:13).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0.002376", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Insufficient balance. (ErrCode: 170131) (ErrTime: 21:34:53).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Insufficient balance. (ErrCode: 170131) (ErrTime: 21:35:37).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.0002", "marketUnit": "baseCoin"}.
+Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 21:55:22).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Buy", "qty": "0.040403", "marketUnit": "quoteCoin"}.
+Data sent for paramter '' is not valid. (ErrCode: 170130) (ErrTime: 22:02:18).
+Request → POST https://api.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDC", "isLeverage": 10, "orderType": "Market", "side": "Sell", "qty": "0", "marketUnit": "baseCoin"}.
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+'deltaP'
+'deltaP'
+'deltaP'
+'deltaP'
