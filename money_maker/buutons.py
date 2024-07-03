@@ -280,10 +280,12 @@ def handle_strategy_1(message):
                                               f"delta={delta} --->\n" \
                                               f"Выполнил order10-3 прод.")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -301,10 +303,12 @@ def handle_strategy_1(message):
                         bot.send_message(message.chat.id, f"delta={delta} и order5={order_5_is_active} --->\n" \
                                                           f"Выполнил order3 пок. выставил order5 прод.")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -390,10 +394,12 @@ def handle_strategy_1(message):
                                               f"Выполнил order8-9 пок. {order_price}\n" \
                                               f"НеВыставил ордера 1")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -409,10 +415,12 @@ def handle_strategy_1(message):
                         bot.send_message(message.chat.id, f"delta={delta} --->\n" \
                                                           f"Выставил метку по цене {metka}")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -426,10 +434,12 @@ def handle_strategy_1(message):
                     else:
                         bot.send_message(message.chat.id, f"delta={delta} ---> hold")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -477,10 +487,12 @@ def handle_strategy_1(message):
                                               f"НеВыставил ордера 1" \
                                               f"Обнулил значение метки")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -496,10 +508,12 @@ def handle_strategy_1(message):
                         bot.send_message(message.chat.id, f"delta={delta} --->\n" \
                                                           f"Выставил метку по цене {metka}")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -513,10 +527,12 @@ def handle_strategy_1(message):
                     else:
                         bot.send_message(message.chat.id, f"delta={delta} ---> hold")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -641,10 +657,12 @@ def handle_strategy_2(message):
                                               f"delta={delta} --->\n" \
                                               f"Выполнил order101 прод.")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -662,10 +680,12 @@ def handle_strategy_2(message):
                         bot.send_message(message.chat.id, f"delta={delta} и order5={order_5_is_active} --->\n" \
                                                           f"Выполнил order7 пок. и выставил order5 прод. ордер1 прод")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -751,10 +771,12 @@ def handle_strategy_2(message):
                                               f"Выполнил order8-9 пок. {order_price}\n" \
                                               f"неВыставил ордера 1")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -770,10 +792,11 @@ def handle_strategy_2(message):
                         bot.send_message(message.chat.id, f"delta={delta} --->\n" \
                                                           f"Выставил метку по цене {metka}")
 
-                        current_balance = r.calculate_total_balance()
+                        уcurrent_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -787,19 +810,7 @@ def handle_strategy_2(message):
                     else:
                         bot.send_message(message.chat.id, f"delta={delta} ---> hold")
 
-                        current_balance = r.calculate_total_balance()
-                        profit = round(current_balance - enter_balance, 3)
-                        max_profit = profit if profit >= max_profit else max_profit
-
-                        if (max_profit - profit) > form['deltaP']:
-                            is_running = False
-                            response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                            bot.send_message(message.chat.id, response)
-                            # Отправка команды для перезапуска стратегии
-                            handle_stop(message)
-                            handle_strategy_1(message)
-                            return
-
+#Сквроцов
                         time.sleep(sleep_time)
                 time.sleep(sleep_time)
 
@@ -838,10 +849,12 @@ def handle_strategy_2(message):
                                               f"Выставил ордера 1" \
                                               f"Обнулил значение метки")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -857,10 +870,12 @@ def handle_strategy_2(message):
                         bot.send_message(message.chat.id, f"delta={delta} --->\n" \
                                                           f"Выставил метку по цене {metka}")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
@@ -874,10 +889,12 @@ def handle_strategy_2(message):
                     else:
                         bot.send_message(message.chat.id, f"delta={delta} ---> hold")
 
+#Сквроцов
                         current_balance = r.calculate_total_balance()
                         profit = round(current_balance - enter_balance, 3)
                         max_profit = profit if profit >= max_profit else max_profit
 
+#Скворцов
                         if (max_profit - profit) > form['deltaP']:
                             is_running = False
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
