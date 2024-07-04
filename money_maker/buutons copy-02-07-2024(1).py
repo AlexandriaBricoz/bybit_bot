@@ -71,7 +71,6 @@ def proc_document(message):
                     inputed_attribs_ = list(yaml_data.keys())
                     sorted_inputed_attribs_ = sorted(inputed_attribs_)
                     attribs_ = ['time_period', 'symbol', 'isLeverage', 'min_value', 'values', 'ints', 'int_triggers', 'bybit', 'tg', 'deltaP']
-
                     sorted_attribs = sorted(attribs_)
                     bot.send_message(message.chat.id, f"{sorted_inputed_attribs_=}")
                     if sorted_inputed_attribs_ == sorted_attribs:
@@ -171,16 +170,16 @@ def handle_strategy_1(message):
                     is_running = False
                     bot.send_message(message.chat.id,f' {is_running} 222222')
                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                    bot.send_message(message.chat.id, response, '333333')
+                    bot.send_message(message.chat.id, f'{response} 333333')
                     bot.send_message(message.chat.id, text=response)
-                    bot.send_message(message.chat.id, response, '444444')
+                    bot.send_message(message.chat.id, f'{response} 444444')
                     # Отправка команды для перезапуска стратегии
                     handle_stop(message)
-                    bot.send_message(message.chat.id, response, '555555')
+                    bot.send_message(message.chat.id,f'{response} 555555')
                     handle_strategy_1(message)
-                    bot.send_message(message.chat.id, response, '777777')
+                    bot.send_message(message.chat.id, f'{response} 777777')
                     return
-                bot.send_message(message.chat.id, response, '888888')
+                bot.send_message(message.chat.id, f'{response} 888888')
             except Exception as e:
                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -204,15 +203,27 @@ def handle_strategy_1(message):
                     max_profit = profit if profit >= max_profit else max_profit
 
                     # Скворцов
-                    if (max_profit - profit) > float(form['deltaP']):
-                        print('11111')
-                        is_running = False
-                        response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                        bot.send_message(message.chat.id, text=response)
-                        # Отправка команды для перезапуска стратегии
-                        handle_stop(message)
-                        handle_strategy_1(message)
-                        return
+                    try:
+                        bot.send_message(message.chat.id, '11111')
+                        # Скворцов
+                        if (max_profit - profit) > float(form['deltaP']):
+                            bot.send_message(message.chat.id, '222222')
+                            is_running = False
+                            bot.send_message(message.chat.id, f' {is_running} 222222')
+                            response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
+                            bot.send_message(message.chat.id, f'{response} 333333')
+                            bot.send_message(message.chat.id, text=response)
+                            bot.send_message(message.chat.id, f'{response} 444444')
+                            # Отправка команды для перезапуска стратегии
+                            handle_stop(message)
+                            bot.send_message(message.chat.id, f'{response} 555555')
+                            handle_strategy_1(message)
+                            bot.send_message(message.chat.id, f'{response} 777777')
+                            return
+                        bot.send_message(message.chat.id, f'{response} 888888')
+                    except Exception as e:
+                        bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
+                        
                 break
             elif delta < -form['ints']['int_9']:
                 metka = r.check_market_price()
@@ -225,15 +236,26 @@ def handle_strategy_1(message):
                     max_profit = profit if profit >= max_profit else max_profit
 
                     # Скворцов
-                    if (max_profit - profit) > float(form['deltaP']):
-                        print('11111')
-                        is_running = False
-                        response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                        bot.send_message(message.chat.id, text=response)
-                        # Отправка команды для перезапуска стратегии
-                        handle_stop(message)
-                        handle_strategy_1(message)
-                        return
+                    try:
+                        bot.send_message(message.chat.id, '11111')
+                        # Скворцов
+                        if (max_profit - profit) > float(form['deltaP']):
+                            bot.send_message(message.chat.id, '222222')
+                            is_running = False
+                            bot.send_message(message.chat.id, f' {is_running} 222222')
+                            response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
+                            bot.send_message(message.chat.id, f'{response} 333333')
+                            bot.send_message(message.chat.id, text=response)
+                            bot.send_message(message.chat.id, f'{response} 444444')
+                            # Отправка команды для перезапуска стратегии
+                            handle_stop(message)
+                            bot.send_message(message.chat.id, f'{response} 555555')
+                            handle_strategy_1(message)
+                            bot.send_message(message.chat.id, f'{response} 777777')
+                            return
+                        bot.send_message(message.chat.id, f'{response} 888888')
+                    except Exception as e:
+                        bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
                 break
             else:
@@ -251,18 +273,18 @@ def handle_strategy_1(message):
                 if (max_profit - profit) > float(form['deltaP']):
                     bot.send_message(message.chat.id, '222222')
                     is_running = False
-                    bot.send_message(message.chat.id,f' {is_running} 222222')
+                    bot.send_message(message.chat.id, f' {is_running} 222222')
                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                    bot.send_message(message.chat.id, response, '333333')
+                    bot.send_message(message.chat.id, f'{response} 333333')
                     bot.send_message(message.chat.id, text=response)
-                    bot.send_message(message.chat.id, response, '444444')
+                    bot.send_message(message.chat.id, f'{response} 444444')
                     # Отправка команды для перезапуска стратегии
                     handle_stop(message)
-                    bot.send_message(message.chat.id, response, '555555')
+                    bot.send_message(message.chat.id, f'{response} 555555')
                     handle_strategy_1(message)
-                    bot.send_message(message.chat.id, response, '777777')
+                    bot.send_message(message.chat.id, f'{response} 777777')
                     return
-                bot.send_message(message.chat.id, response, '888888')
+                bot.send_message(message.chat.id, f'{response} 888888')
             except Exception as e:
                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -313,16 +335,16 @@ def handle_strategy_1(message):
                             is_running = False
                             bot.send_message(message.chat.id, f' {is_running} 222222')
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                            bot.send_message(message.chat.id, response, '333333')
+                            bot.send_message(message.chat.id, f'{response} 333333')
                             bot.send_message(message.chat.id, text=response)
-                            bot.send_message(message.chat.id, response, '444444')
+                            bot.send_message(message.chat.id, f'{response} 444444')
                             # Отправка команды для перезапуска стратегии
                             handle_stop(message)
-                            bot.send_message(message.chat.id, response, '555555')
+                            bot.send_message(message.chat.id, f'{response} 555555')
                             handle_strategy_1(message)
-                            bot.send_message(message.chat.id, response, '777777')
+                            bot.send_message(message.chat.id, f'{response} 777777')
                             return
-                        bot.send_message(message.chat.id, response, '888888')
+                        bot.send_message(message.chat.id, f'{response} 888888')
                     except Exception as e:
                         bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
                 while is_running:
@@ -361,16 +383,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -396,16 +418,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -429,16 +451,16 @@ def handle_strategy_1(message):
                                         is_running = False
                                         bot.send_message(message.chat.id, f' {is_running} 222222')
                                         response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                        bot.send_message(message.chat.id, response, '333333')
+                                        bot.send_message(message.chat.id, f'{response} 333333')
                                         bot.send_message(message.chat.id, text=response)
-                                        bot.send_message(message.chat.id, response, '444444')
+                                        bot.send_message(message.chat.id, f'{response} 444444')
                                         # Отправка команды для перезапуска стратегии
                                         handle_stop(message)
-                                        bot.send_message(message.chat.id, response, '555555')
+                                        bot.send_message(message.chat.id, f'{response} 555555')
                                         handle_strategy_1(message)
-                                        bot.send_message(message.chat.id, response, '777777')
+                                        bot.send_message(message.chat.id, f'{response} 777777')
                                         return
-                                    bot.send_message(message.chat.id, response, '888888')
+                                    bot.send_message(message.chat.id, f'{response} 888888')
                                 except Exception as e:
                                     bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -461,16 +483,16 @@ def handle_strategy_1(message):
                                         is_running = False
                                         bot.send_message(message.chat.id, f' {is_running} 222222')
                                         response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                        bot.send_message(message.chat.id, response, '333333')
+                                        bot.send_message(message.chat.id, f'{response} 333333')
                                         bot.send_message(message.chat.id, text=response)
-                                        bot.send_message(message.chat.id, response, '444444')
+                                        bot.send_message(message.chat.id, f'{response} 444444')
                                         # Отправка команды для перезапуска стратегии
                                         handle_stop(message)
-                                        bot.send_message(message.chat.id, response, '555555')
+                                        bot.send_message(message.chat.id, f'{response} 555555')
                                         handle_strategy_1(message)
-                                        bot.send_message(message.chat.id, response, '777777')
+                                        bot.send_message(message.chat.id, f'{response} 777777')
                                         return
-                                    bot.send_message(message.chat.id, response, '888888')
+                                    bot.send_message(message.chat.id, f'{response} 888888')
                                 except Exception as e:
                                     bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -496,16 +518,16 @@ def handle_strategy_1(message):
                             is_running = False
                             bot.send_message(message.chat.id, f' {is_running} 222222')
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                            bot.send_message(message.chat.id, response, '333333')
+                            bot.send_message(message.chat.id, f'{response} 333333')
                             bot.send_message(message.chat.id, text=response)
-                            bot.send_message(message.chat.id, response, '444444')
+                            bot.send_message(message.chat.id, f'{response} 444444')
                             # Отправка команды для перезапуска стратегии
                             handle_stop(message)
-                            bot.send_message(message.chat.id, response, '555555')
+                            bot.send_message(message.chat.id, f'{response} 555555')
                             handle_strategy_1(message)
-                            bot.send_message(message.chat.id, response, '777777')
+                            bot.send_message(message.chat.id, f'{response} 777777')
                             return
-                        bot.send_message(message.chat.id, response, '888888')
+                        bot.send_message(message.chat.id, f'{response} 888888')
                     except Exception as e:
                         bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -526,16 +548,16 @@ def handle_strategy_1(message):
                             is_running = False
                             bot.send_message(message.chat.id, f' {is_running} 222222')
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                            bot.send_message(message.chat.id, response, '333333')
+                            bot.send_message(message.chat.id, f'{response} 333333')
                             bot.send_message(message.chat.id, text=response)
-                            bot.send_message(message.chat.id, response, '444444')
+                            bot.send_message(message.chat.id, f'{response} 444444')
                             # Отправка команды для перезапуска стратегии
                             handle_stop(message)
-                            bot.send_message(message.chat.id, response, '555555')
+                            bot.send_message(message.chat.id, f'{response} 555555')
                             handle_strategy_1(message)
-                            bot.send_message(message.chat.id, response, '777777')
+                            bot.send_message(message.chat.id, f'{response} 777777')
                             return
-                        bot.send_message(message.chat.id, response, '888888')
+                        bot.send_message(message.chat.id, f'{response} 888888')
                     except Exception as e:
                         bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -575,16 +597,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -606,16 +628,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -640,16 +662,16 @@ def handle_strategy_1(message):
                             is_running = False
                             bot.send_message(message.chat.id, f' {is_running} 222222')
                             response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                            bot.send_message(message.chat.id, response, '333333')
+                            bot.send_message(message.chat.id, f'{response} 333333')
                             bot.send_message(message.chat.id, text=response)
-                            bot.send_message(message.chat.id, response, '444444')
+                            bot.send_message(message.chat.id, f'{response} 444444')
                             # Отправка команды для перезапуска стратегии
                             handle_stop(message)
-                            bot.send_message(message.chat.id, response, '555555')
+                            bot.send_message(message.chat.id, f'{response} 555555')
                             handle_strategy_1(message)
-                            bot.send_message(message.chat.id, response, '777777')
+                            bot.send_message(message.chat.id, f'{response} 777777')
                             return
-                        bot.send_message(message.chat.id, response, '888888')
+                        bot.send_message(message.chat.id, f'{response} 888888')
                     except Exception as e:
                         bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
                 while is_running:
@@ -684,16 +706,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -717,16 +739,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -748,16 +770,16 @@ def handle_strategy_1(message):
                                     is_running = False
                                     bot.send_message(message.chat.id, f' {is_running} 222222')
                                     response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                    bot.send_message(message.chat.id, response, '333333')
+                                    bot.send_message(message.chat.id, f'{response} 333333')
                                     bot.send_message(message.chat.id, text=response)
-                                    bot.send_message(message.chat.id, response, '444444')
+                                    bot.send_message(message.chat.id, f'{response} 444444')
                                     # Отправка команды для перезапуска стратегии
                                     handle_stop(message)
-                                    bot.send_message(message.chat.id, response, '555555')
+                                    bot.send_message(message.chat.id, f'{response} 555555')
                                     handle_strategy_1(message)
-                                    bot.send_message(message.chat.id, response, '777777')
+                                    bot.send_message(message.chat.id, f'{response} 777777')
                                     return
-                                bot.send_message(message.chat.id, response, '888888')
+                                bot.send_message(message.chat.id, f'{response} 888888')
                             except Exception as e:
                                 bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -808,16 +830,16 @@ def handle_strategy_2(message):
                 is_running = False
                 bot.send_message(message.chat.id, f' {is_running} 222222')
                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                bot.send_message(message.chat.id, response, '333333')
+                bot.send_message(message.chat.id, f'{response} 333333')
                 bot.send_message(message.chat.id, text=response)
-                bot.send_message(message.chat.id, response, '444444')
+                bot.send_message(message.chat.id, f'{response} 444444')
                 # Отправка команды для перезапуска стратегии
                 handle_stop(message)
-                bot.send_message(message.chat.id, response, '555555')
+                bot.send_message(message.chat.id, f'{response} 555555')
                 handle_strategy_1(message)
-                bot.send_message(message.chat.id, response, '777777')
+                bot.send_message(message.chat.id, f'{response} 777777')
                 return
-            bot.send_message(message.chat.id, response, '888888')
+            bot.send_message(message.chat.id, f'{response} 888888')
         except Exception as e:
             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
         #r.create_order_enter_1()
@@ -870,16 +892,16 @@ def handle_strategy_2(message):
                         is_running = False
                         bot.send_message(message.chat.id, f' {is_running} 222222')
                         response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                        bot.send_message(message.chat.id, response, '333333')
+                        bot.send_message(message.chat.id, f'{response} 333333')
                         bot.send_message(message.chat.id, text=response)
-                        bot.send_message(message.chat.id, response, '444444')
+                        bot.send_message(message.chat.id, f'{response} 444444')
                         # Отправка команды для перезапуска стратегии
                         handle_stop(message)
-                        bot.send_message(message.chat.id, response, '555555')
+                        bot.send_message(message.chat.id, f'{response} 555555')
                         handle_strategy_1(message)
-                        bot.send_message(message.chat.id, response, '777777')
+                        bot.send_message(message.chat.id, f'{response} 777777')
                         return
-                    bot.send_message(message.chat.id, response, '888888')
+                    bot.send_message(message.chat.id, f'{response} 888888')
                 except Exception as e:
                     bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -913,16 +935,16 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
                         break
@@ -946,19 +968,18 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
-
                         break
                     else:
                         if delta >= form['ints']['int_4']:
@@ -1020,16 +1041,16 @@ def handle_strategy_2(message):
                         is_running = False
                         bot.send_message(message.chat.id, f' {is_running} 222222')
                         response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                        bot.send_message(message.chat.id, response, '333333')
+                        bot.send_message(message.chat.id, f'{response} 333333')
                         bot.send_message(message.chat.id, text=response)
-                        bot.send_message(message.chat.id, response, '444444')
+                        bot.send_message(message.chat.id, f'{response} 444444')
                         # Отправка команды для перезапуска стратегии
                         handle_stop(message)
-                        bot.send_message(message.chat.id, response, '555555')
+                        bot.send_message(message.chat.id, f'{response} 555555')
                         handle_strategy_1(message)
-                        bot.send_message(message.chat.id, response, '777777')
+                        bot.send_message(message.chat.id, f'{response} 777777')
                         return
-                    bot.send_message(message.chat.id, response, '888888')
+                    bot.send_message(message.chat.id, f'{response} 888888')
                 except Exception as e:
                     bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
                 while is_running:
@@ -1061,16 +1082,16 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
                         break
@@ -1092,18 +1113,19 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
+
 
                         break
                     else:
@@ -1122,16 +1144,16 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -1154,16 +1176,16 @@ def handle_strategy_2(message):
                         is_running = False
                         bot.send_message(message.chat.id, f' {is_running} 222222')
                         response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                        bot.send_message(message.chat.id, response, '333333')
+                        bot.send_message(message.chat.id, f'{response} 333333')
                         bot.send_message(message.chat.id, text=response)
-                        bot.send_message(message.chat.id, response, '444444')
+                        bot.send_message(message.chat.id, f'{response} 444444')
                         # Отправка команды для перезапуска стратегии
                         handle_stop(message)
-                        bot.send_message(message.chat.id, response, '555555')
+                        bot.send_message(message.chat.id, f'{response} 555555')
                         handle_strategy_1(message)
-                        bot.send_message(message.chat.id, response, '777777')
+                        bot.send_message(message.chat.id, f'{response} 777777')
                         return
-                    bot.send_message(message.chat.id, response, '888888')
+                    bot.send_message(message.chat.id, f'{response} 888888')
                 except Exception as e:
                     bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -1198,16 +1220,16 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -1230,16 +1252,16 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
@@ -1260,16 +1282,16 @@ def handle_strategy_2(message):
                                 is_running = False
                                 bot.send_message(message.chat.id, f' {is_running} 222222')
                                 response = f"({max_profit} - {profit}) = {round(max_profit - profit, 3)} USDC - Делаю STOP - Стратегия 1"
-                                bot.send_message(message.chat.id, response, '333333')
+                                bot.send_message(message.chat.id, f'{response} 333333')
                                 bot.send_message(message.chat.id, text=response)
-                                bot.send_message(message.chat.id, response, '444444')
+                                bot.send_message(message.chat.id, f'{response} 444444')
                                 # Отправка команды для перезапуска стратегии
                                 handle_stop(message)
-                                bot.send_message(message.chat.id, response, '555555')
+                                bot.send_message(message.chat.id, f'{response} 555555')
                                 handle_strategy_1(message)
-                                bot.send_message(message.chat.id, response, '777777')
+                                bot.send_message(message.chat.id, f'{response} 777777')
                                 return
-                            bot.send_message(message.chat.id, response, '888888')
+                            bot.send_message(message.chat.id, f'{response} 888888')
                         except Exception as e:
                             bot.send_message(message.chat.id, f"Произошла непредвиденная ошибка: {e}")
 
