@@ -11,7 +11,7 @@ import yaml
 from robot import Robot
 
 # Конфиги
-form = yaml.safe_load(open('form.yml', 'r'))
+form = yaml.safe_load(open('../form.yml', 'r'))
 
 # Инициализация бота с токеном
 session = HTTP(testnet=False, api_key=form['bybit']['api_key'], api_secret=form['bybit']['api_secret'])
@@ -58,11 +58,11 @@ def proc_document(message):
                                 'bybit', 'tg']
                     sorted_attribs = sorted(attribs_)
                     if sorted_inputed_attribs_ == sorted_attribs:
-                        with open('form.yml', 'w') as file:
+                        with open('../form.yml', 'w') as file:
                             yaml.dump(yaml_data, file)
                         bot.send_message(message.chat.id, 'Форма успешно загружена.\n' \
                                                           'Бот перезапущен с новыми параметрами.')
-                        with open('restart.txt', 'w') as file:
+                        with open('../restart.txt', 'w') as file:
                             file.write(f'форма изменена_{datetime.datetime.now()}')
                     else:
                         bot.send_message(message.chat.id, 'Ошибка.\n' \
@@ -1023,7 +1023,7 @@ def handle_stop(message):
 
 while True:
     try:
-        bot.polling(none_stop=True, restart_on_change=True, path_to_watch='restart.txt')
+        bot.polling(none_stop=True, restart_on_change=True, path_to_watch='../restart.txt')
     except Exception as e:
         print(e)
         time.sleep(15)
